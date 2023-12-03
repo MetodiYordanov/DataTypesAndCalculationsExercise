@@ -4,6 +4,13 @@
     {
         static void Main(string[] args)
         {
+            // The program calculates how much it will cost a group of people to order takeaways.
+            // The price of dessert is 20% of the total bill (excluding delivery).
+            // Delivery price is 2.50 and is finaly charged.
+            // Example - Input: number of chicken menus = 2, numer of menus with fish = 4,
+            // number of vegeterian menus = 3
+            // Output = 116.2
+
             const double chickenMenuPrice = 10.35;
             const double fishMenuPrice = 12.4;
             const double vegeterianMenuPrice = 8.15;
